@@ -65,38 +65,6 @@
 		<div class="triangle-l"></div>
 		<div class="triangle-r"></div>
   </nav>
-  <!--nav id="access" class="access" role="navigation">
-        <div id="menu" class="menu">
-        	<ul id="tiny" deluminate_imagetype="png">
-				<li><a href="index.html" class="">Introduction</a>
-					<ul style="top: 42px; visibility: visible; left: 0px; width: 130px; display: none;">
-			            <li><a href="misc.html">Data Set</a></li>
-			            <li><a href="columns.html">Visual Queries</a></li>
-			        </ul>
-				</li>
-				<li><a href="lit_review.html">Literature Review</a></li>
-				<li><a href="prototyping.html" class="">Prototyping</a>
-					<ul>
-			            <li><a href="misc.html">Map</a></li>
-			            <li><a href="columns.html">Graph</a></li>
-			            <li><a href="typography.html">Chess</a></li>
-			            <li><a href="typography.html">Comparison</a></li>
-			        </ul>
-				</li>
-				<li><a href="final_design.html" class="">Final Design</a></li>
-					<ul>
-			            <li><a href="misc.html">Changes</a></li>
-			            <li><a href="columns.html">Interactivity</a></li>
-			            <li><a href="typography.html">Discussion</a></li>
-			        </ul>
-				<li><a href="conclusion.html">Conclusion</a></li>
-				<li><a href="references.html">References</a></li>
-			</ul>
-		</div>
-		<div class="triangle-l"></div>
-		<div class="triangle-r"></div>
-  </nav-->
-  <!-- #access --> 
 </header>
 <!-- #branding -->
 
@@ -109,17 +77,17 @@
   <!-- begin article -->
   <article class="post hentry format-image">
   	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">Introduction</a></h2>
+		<h2 class="entry-title"><a href="">Introduction</a></h2>
     </header>
     <!-- .entry-header -->
     
     <div class="entry-content">
-      <div class="full-size">
-      	<a href="post.html"><img width="1040" height="535" src="style/images/art/post1.jpg" alt="" /></a>
-      </div>
  <p>
 From Adams to Tolkien to Welsh, great authors and great books have always always curated passionate followers. In today’s day and age the same can be said for television series, with fandoms cropping up in every genre. When these two groups are united, as in the case of G.R.R. Martin’s A Song of Ice and Fire (ASoIaF) book series and the corresponding Game of Thrones (GoT) television series, the result is positively pyrotechnic. With fans painstakingly collating data from every conceivable source in an attempt to unravel the complexities of Martin’s creation, it becomes even more difficult to understand the precise flow of events and allegiances in  ASoIaF/GoT. Here visualisation becomes an invaluable tool for helping one grasp the mercurial politics.
 </p> 
+      <div class="full-size">
+      	<a href=""><img width="1040" height="535" src="maxresdefault.jpg" alt="" /></a>
+      </div>
  <p>
 For the purposes of this assignment it was decided to focus particularly on the battles which formed The War of the Five Kings. This war has been the major focus of the books thus far, although the television series has gone ahead of them. Both ASoIaF and GoT move rapidly from battle to battle, with a lot of motion between characters in between, so it is often difficult to keep track of why a death was significant, or what happened five pages or minutes previously. Therefore visualising the sequence and nature of the battles will help fans of both mediums come to an understanding of what has transpired.
 </p>
@@ -137,6 +105,9 @@ For the purposes of this assignment it was decided to focus particularly on the 
     <!-- .entry-header -->
     
     <div class="entry-content">
+      <div class="full-size">
+      	<a href=""><img width="1040" height="535" src="data_set.png" alt="" /></a>
+      </div>
       <p>The data set is a publically available one created by Chris Albon (Albon, 2014). It describes 38 battles which took place across Westeros, between the years 299 and 300 inclusive. It details the particular kings involved in the battle, describes the houses allied with them for the battle, the number of troops they had, the type of battle, any major deaths or captures which took place, the location of the battle and the commanders of the battles. In the interests of time, a subset of this data set was included in the final design, namely the first 27 of these battles.
 </p>
 <p>
@@ -158,6 +129,64 @@ Certain information, such as the details of major character deaths and the signi
     <!-- .entry-header -->
     
     <div class="entry-content">
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0; margin: 5px auto;}
+.tg td{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Final Rank</th>
+    <th class="tg-yw4l">Previous Rank</th>
+    <th class="tg-yw4l">Visual query</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">1</td>
+    <td class="tg-yw4l">3</td>
+    <td class="tg-yw4l">Who won the battle?</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">2</td>
+    <td class="tg-yw4l" rowspan="2">2 and 4</td>
+    <td class="tg-yw4l">Who was the attacker and who was the defender?</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Who fought in the battle?</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">3</td>
+    <td class="tg-yw4l">1</td>
+    <td class="tg-yw4l">Where did the battle take place?</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">4</td>
+    <td class="tg-yw4l" rowspan="2">N/A</td>
+    <td class="tg-yw4l">How significant was the battle in relative to the other battles?</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Were there any significant character deaths, and if so, who was it/ were they?</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">5</td>
+    <td class="tg-yw4l">5</td>
+    <td class="tg-yw4l">What type of battle was it?</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" rowspan="2">6</td>
+    <td class="tg-yw4l" rowspan="2">6</td>
+    <td class="tg-yw4l">When did this battle fall relative to the order of other battles?</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">When did the battle take place?</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">7</td>
+    <td class="tg-yw4l">7</td>
+    <td class="tg-yw4l">What is the name of the battle?</td>
+  </tr>
+</table>
       	<ul class="gallery-items">
 	      	<li class="item">
 	      		<a href="style/images/art/gallery1-full.jpg" class="view" rel="gallery"  title="Transparent Flower">

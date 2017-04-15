@@ -84,20 +84,29 @@
   <!-- begin article -->
   <article class="post hentry format-image">
   	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">Introduction</a></h2>
+		<h2 class="entry-title">Final Design</h2>
     </header>
     <!-- .entry-header -->
     
+        <img src="figures/13.png" alt="" /></a>
+    </article>
+
+  <article id="changes" class="post hentry format-image">
+  	<header class="entry-header">
+		<h2 class="entry-title">Changes to Original Design</h2>
+    </header>
+    <!-- .entry-header -->
     <div class="entry-content">
-      <div class="full-size">
-      	<a href="post.html"><img width="1040" height="535" src="style/images/art/post1.jpg" alt="" /></a>
-      </div>
  <p>
-From Adams to Tolkien to Welsh, great authors and great books have always always curated passionate followers. In today’s day and age the same can be said for television series, with fandoms cropping up in every genre. When these two groups are united, as in the case of G.R.R. Martin’s A Song of Ice and Fire (ASoIaF) book series and the corresponding Game of Thrones (GoT) television series, the result is positively pyrotechnic. With fans painstakingly collating data from every conceivable source in an attempt to unravel the complexities of Martin’s creation, it becomes even more difficult to understand the precise flow of events and allegiances in  ASoIaF/GoT. Here visualisation becomes an invaluable tool for helping one grasp the mercurial politics.
+There were many changes to the original design, following on from advice given by both Laurisha Rampersad and Assoc. Prof. Michelle Kuttel.
 </p> 
+        <img src="figures/14.png" alt="" /></a>
  <p>
-For the purposes of this assignment it was decided to focus particularly on the battles which formed The War of the Five Kings. This war has been the major focus of the books thus far, although the television series has gone ahead of them. Both ASoIaF and GoT move rapidly from battle to battle, with a lot of motion between characters in between, so it is often difficult to keep track of why a death was significant, or what happened five pages or minutes previously. Therefore visualising the sequence and nature of the battles will help fans of both mediums come to an understanding of what has transpired.
+Taking the advice of Rampersad, the battle participants from which one can select was focussed upon the five kings, and the original pins on the map overview were changed to give more meaning through different visuals channels. This change is evident when one considers the difference between the bottom-most scrollbars in Figures 13 and 14.
 </p>
+ <p>
+Blood being used to indicate the loser of a battle was also removed, although this at the suggestion of Assoc. Prof. Kuttel. The authors’ shared Assoc. Prof. Kuttel’s concerns at using this diacritic as they felt it could cause the sigils to be overloaded with meaning. In addition to this it was possible that the dripping blood could be confused for being a motif on the sigil, and so baffle viewers who would try and match this ‘new’ sigil to a House.
+ </p>
  	</div>
     <!-- .entry-content -->
     
@@ -105,18 +114,180 @@ For the purposes of this assignment it was decided to focus particularly on the 
   <!-- end article -->
   
   <!-- begin article -->
-  <article class="post hentry format-standard">
+  <article id="design_motivation" class="post hentry format-standard">
   	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">The Data Set </a></h2>
+		<h2 class="entry-title">Design Motivation </h2>
     </header>
     <!-- .entry-header -->
     
     <div class="entry-content">
-      <p>The data set is a publically available one created by Chris Albon (Albon, 2014). It describes 38 battles which took place across Westeros, between the years 299 and 300 inclusive. It details the particular kings involved in the battle, describes the houses allied with them for the battle, the number of troops they had, the type of battle, any major deaths or captures which took place, the location of the battle and the commanders of the battles. In the interests of time, a subset of this data set was included in the final design, namely the first 27 of these battles.
+      <p>
+The final design brought more information into the overview. The decision to do so was based on the fact that the prototype paid too little attention to the “overview first” and “zoom and filter” components of Shneiderman’s (1996) philosophy. While “details-on-demand” was still a feature of the visualisation, it was more balanced than in the previous iteration.
 </p>
+	<h3 class="entry-title" style="font-size:120%">Channels</h3>
 <p>
-Certain information, such as the details of major character deaths and the significance of them, had to be manually extracted from A Wiki of Ice and Fire (2017), the definitive online reference to the world of A Song of Ice and Fire. 
+In this iteration, better use of channels such as colour, size and shape allowed for greater detail at a higher level. A summary of which channels were used to resolve a particular query can be found in Table 2.
 </p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><em><span style="font-weight: 400;">Table 2. A comparison of how the prototype addressed a particular visual query to how the final design addresses it. Order of visual queries is done with respect to the final design stage. Queries resolved at an overview level are not italicised whilst those at a detail level are.</span></em></p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Rank</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visual query</span></p>
+</td>
+<td colspan="2">
+<p><span style="font-weight: 400;">Resolution of the query</span></p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><span style="font-weight: 400;">Final design</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Map prototype</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">1</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Who won the battle?</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The </span><strong>colour</strong><span style="font-weight: 400;"> of the pin (</span><strong>symbol</strong><span style="font-weight: 400;">) marking the battle&rsquo;s location.</span></p>
+</td>
+<td>
+<p><em><span style="font-weight: 400;">The </span></em><strong><em>symbol </em></strong><em><span style="font-weight: 400;">of the medal above the winner.</span></em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">2</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Who fought in the battle?</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The </span><strong>colour</strong><span style="font-weight: 400;"> of the pin (</span><strong>symbol</strong><span style="font-weight: 400;">) marking the battle&rsquo;s location and the pin&rsquo;s border indicate the kings participating in the battle.</span></p>
+<p><em><span style="font-weight: 400;">The sigils (</span></em><strong><em>symbols</em></strong><em><span style="font-weight: 400;">) visible on detailed view indicate the details of which Houses participated in the battle.</span></em></p>
+</td>
+<td>
+<p><em><span style="font-weight: 400;">The </span></em><strong><em>symbols</em></strong> <em><span style="font-weight: 400;">of the kings and their allies.</span></em></p>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<p><span style="font-weight: 400;">Who was the attacker and who was the defender?</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The </span><strong>colour</strong><span style="font-weight: 400;"> of the circle (</span><strong>shape</strong><span style="font-weight: 400;">) on the pin (</span><strong>symbol</strong><span style="font-weight: 400;">) indicates the defender.</span></p>
+<p><em><span style="font-weight: 400;">The </span></em><strong><em>symbol</em></strong><em><span style="font-weight: 400;"> of an arrow pointing from the attacker&rsquo;s sigil (</span></em><strong><em>symbol</em></strong><em><span style="font-weight: 400;">) to the defender&rsquo;s sigil (</span></em><strong><em>symbol</em></strong><em><span style="font-weight: 400;">) in the detailed view.</span></em></p>
+</td>
+<td>
+<p><em><span style="font-weight: 400;">The </span></em><strong><em>symbol</em></strong><em><span style="font-weight: 400;"> of an arrow pointing from the attacker&rsquo;s sigil (</span></em><strong><em>symbol</em></strong><em><span style="font-weight: 400;">) to the defender&rsquo;s sigil (</span></em><strong><em>symbol</em></strong><em><span style="font-weight: 400;">) in the detailed view.</span></em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Where did the battle take place?</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated by the </span><strong>position</strong><span style="font-weight: 400;"> of the pin (</span><strong>symbol</strong><span style="font-weight: 400;">) on the map.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated by the </span><strong>position</strong><span style="font-weight: 400;"> of the pin (</span><strong>symbol</strong><span style="font-weight: 400;">) &nbsp;on the map.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Were there any significant character deaths, and if so, who was it/ were they?</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated by the </span><strong>size</strong><span style="font-weight: 400;"> of the pin (</span><strong>symbol</strong><span style="font-weight: 400;">) on the map.</span></p>
+<p><span style="font-weight: 400;">Significant deaths are indicated by stars (</span><strong>shapes</strong><span style="font-weight: 400;">) on the timeline.</span></p>
+<p><em><span style="font-weight: 400;">Details of who died are presented in a </span></em><strong><em>pop out</em></strong><em><span style="font-weight: 400;"> on clicking this star.</span></em></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">N/A</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">What type of battle was it?</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated by the </span><strong>shape</strong><span style="font-weight: 400;"> on the pin (</span><strong>symbol</strong><span style="font-weight: 400;">) .</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated by the </span><strong>shape</strong><span style="font-weight: 400;"> on the pin (</span><strong>symbol</strong><span style="font-weight: 400;">) .</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">6</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">When did the battle occur relative to other battles?</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated by the </span><strong>ordering</strong><span style="font-weight: 400;"> of the battles on the timeline.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated by the </span><strong>ordering</strong><span style="font-weight: 400;"> of the battles on the timeline.</span></p>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<p><span style="font-weight: 400;">When did the battle occur?</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated by the </span><strong>space</strong><span style="font-weight: 400;"> occupied on the timeline.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated by the </span><strong>space</strong><span style="font-weight: 400;"> occupied on the timeline.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">7</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">What is the name of the battle?</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicated adjacent to the relevant dot on the timeline (</span><strong>position</strong><span style="font-weight: 400;">).</span></p>
+</td>
+<td>
+<p><em><span style="font-weight: 400;">Indicated in the summary panel (</span></em><strong><em>text</em></strong><em><span style="font-weight: 400;">) adjacent to the timeline when the battle is selected.</span></em></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">As one can see, shape, colour and symbols were used extensively throughout the visualisation. The use of colour was found to be particularly effective, as many fan-made visualisations have utilised these same colours. There are therefore default associations for them within the context of ASoIaF/GoT. Similarly, the sigils are known to refer to particular Houses. The other symbols used are either defaults for their purpose (e.g., the pin to indicate location) or are intuitive to understand (e.g., the symbols used for the different forms of battle).</span></p>
+<p><span style="font-weight: 400;">Three channels not discussed in Table 2 are depth, font and texture. The authors deliberately avoided using the latter too often out of concern that it would interfere with the texturing of the map. The map&rsquo;s textures lend an authentic feel to the visualisation which fans of ASoIaF/GoT will recognise and appreciate. It was used on components sparingly, and only for the purposes of making them pop-out. Font was used to indicate to the viewer which areas of the screen are dedicated to functional information, such as filtering, and which to topic related information, like the heading. Finally, depth was utilised when indicating that buttons, such as the timeline interval markers, are clickable.</span></p>
+<h3><span  class="entry-title" style="font-size:70%">Component design</span></h3>
+<p><span style="font-weight: 400;">The location pin became an essential component of the visualisation design in the final iteration. By shading the pins the colour of the victor and outlining them in the colour of the loser, the first few visual queries (see Table 2) became resolvable at a glance. This information was reinforced in the timeline, where the colour of the winner of a particular battle was used to highlight the name of the battle (see Figure 13). The question of who fought in the battle was broadly answered through the pin too, although at the overview level it referred more to factions rather than specific Houses. Similarly, one could see the faction of the defender on the pin, but not the specific House. This level of detail was revealed at the more detailed level when the pin was selected (see Figure 15). Finally, the pin also revealed what type of battle took place through the use of a symbol positioned in its bulge. These symbols were selected based on their association to the type of battle, their simplicity, as well as their visual appeal. Based on the positive feedback received with regards to them, the decision was made to leave them unchanged in the final visualisation.</span></p>
+<p><span style="font-weight: 400;">The pin and map together formed an effective means of showing the viewers where a particular battle took place. This was resolvable at the overview level, but also the detailed level, where a small, transparent reference map was used to show the viewer where they were in relation to the rest of the map (see Figure 15).</span></p>
+<p><span style="font-weight: 400;">Finally, the timeline did an effective job of showing the order in which the battles took place, as well as when they took place individually. The timeline also carried non-time related information, such as the colour highlighting mentioned previously. The interval markers served to give the viewer a concrete sense of the point in time an event occurred. Unless a significant death occurred, the decision was made to keep the interval markers the same hue as the highlighting of the name of the battle at that point. This was to continue the theme that the highlighting introduced. The stars were used to indicate that a significant death had occurred. The authors&rsquo; had observed that stars were a common motif for significance, being used to indicate success in the forms of stickers on children&rsquo;s foreheads, rating systems, etc., hence the decision to use this shape. However, whilst the common colour associated with stars was gold, to indicate success, it was decided to depart from this convention and make them black. Black introduced the idea that the event was in some way negative, which in this case was true, because of the deaths associated with it.</span></p>
 
  	</div>
     <!-- .entry-content -->
@@ -126,42 +297,17 @@ Certain information, such as the details of major character deaths and the signi
   
   
   <!-- begin article -->
-  <article class="post hentry format-gallery">
+  <article id="interactivity" class="post hentry format-gallery">
   	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">Visual Queries</a></h2>
+		<h2 class="entry-title">Interactivity</h2>
     </header>
     <!-- .entry-header -->
     
     <div class="entry-content">
-      	<ul class="gallery-items">
-	      	<li class="item">
-	      		<a href="style/images/art/gallery1-full.jpg" class="view" rel="gallery"  title="Transparent Flower">
-	      			<span class="overlay zoom"></span>
-	      			<img src="style/images/art/gallery1.jpg" alt=""/>
-	      		</a>
-	      	</li>
-	      	<li class="item">
-	      		<a href="style/images/art/gallery2-full.jpg" class="view" rel="gallery" title="Losing Toucing Searching">
-	      			<span class="overlay zoom"></span>
-	      			<img src="style/images/art/gallery2.jpg" alt=""/>
-	      		</a>
-	      	</li>
-	      	<li class="item">
-	      		<a href="style/images/art/gallery3-full.jpg" class="view" rel="gallery" title="Good Frames Ugly Picture">
-	      			<span class="overlay zoom"></span>
-	      			<img src="style/images/art/gallery3.jpg" alt=""/>
-	      		</a>
-	      	</li>
-	      	<li class="item">
-	      		<a href="style/images/art/gallery4-full.jpg" class="view" rel="gallery" title="Faceless Disguise">
-	      			<span class="overlay zoom"></span>
-	      			<img src="style/images/art/gallery4.jpg" alt=""/>
-	      		</a>
-	      	</li>
-      	</ul>
-<p>O my friend &#8212; but it is too much for my strength &#8212; I sink under the weight of the splendour of these visions! A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-<p>He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.</p>
-
+<p><span style="font-weight: 400;">In keeping the final design as map-centric and high resolution as possible it became necessary to allow for users to scroll through the timeline. Shrinking the font-size to fit more onto the screen space would have made it difficult for viewers to read without zooming in using their browsers.</span></p>
+        <img src="figures/15.png" alt="" /></a>
+<p><span style="font-weight: 400;">The viewer could choose which Houses to hide from, or display, on the map by selecting their House on the horizontal scroll-bar, as seen by comparing Figures 13 and 15. This focused on the five kings by default, but other Houses were available for selection.</span></p>
+<p><span style="font-weight: 400;">Hiding and showing battles on the map was facilitated by selecting and deselecting their names from the timeline. Obtaining the details of a battle was achieved by selecting its point on the timeline as opposed to its name. This zoomed one into a detailed view of that battle. One was also able to achieve this level of detail by just zooming in on a battle or by clicking on its pin. Zooming out was also supported. For battles in which a significant death had occurred, the details of the death and its significance were positioned in the left-most panel as depicted in Figure 15.</span></p>
  	</div>
     <!-- .entry-content -->
     
@@ -169,140 +315,23 @@ Certain information, such as the details of major character deaths and the signi
   <!-- end article -->
   
   <!-- begin article -->
-  <article class="post hentry format-quote">
+  <article id="discussion" class="post hentry format-quote" style="margin-bottom:0px">
   	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">Gregor Samsa</a></h2>
+		<h2 class="entry-title">Discussion</h2>
     </header>
     <!-- .entry-header -->
     
     <div class="entry-content">
-      <blockquote>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.<cite>Kafka</cite></blockquote>            
+<p><span style="font-weight: 400;">While the proportions of the visualisation have been improved after the final demonstration, the proportions could still be shown better. Ideally, the map would be larger. Currently the map is competing for the viewer&rsquo;s attention with a lot of side panels, many of which are only secondary information, and could be reduced in size. </span></p>
+<p><span style="font-weight: 400;">Although the interactive nature lends some strengths to the visualisation, it also has its pitfalls, the main of which is that printing this visualisation as a poster reduces the information and detail available. Posterised versions of such a visualisation would be a valuable source of income to its designers.</span></p>
+<p><span style="font-weight: 400;">All of the visual queries can successfully be performed, but with varying degrees of ease. For example, all the spatial queries are easy to answer due to the fact that all the information is laid out on a map. Likewise, the battles are also listed in a timeline, which allows temporal orientation. However, to combine both the spatial and temporal aspects one has to click on a particular battle. Likewise, several other pieces information are only available in the detailed view of a particular battle, namely: the size of the armies, the allies, and the particular houses which participated in the battle. </span></p>
+<p><span style="font-weight: 400;">However, it is easy to see patterns in the information that is shown in the overview. For example, it is easy to see who won, and where they won. Thus, a viewer can draw conclusions about the likelihood of winning depending on distance from their homeland, for example. In this way, many more queries than originally specified can be answered. Patterns and correlations easily emerge when all the data is shown intuitively, as it is in this visualisation. </span></p>
  	</div>
     <!-- .entry-content -->
     
   </article>
   <!-- end article -->
   
-  <!-- begin article -->
-  <article class="post hentry format-video">
-  	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">A Life In The Day</a></h2>
-    </header>
-    <!-- .entry-header -->
-    
-    <div class="entry-content">
-      <div class='media'>
-      	<iframe src="http://player.vimeo.com/video/11513701?title=0&byline=0&portrait=0&color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-      </div>      
-      <p>Filmed on May 5, 2010, a mostly first-person chronicle of the day&#8217;s events leading up to a performance in Wollongong, Australia. Shot on Canon 5D mkII with 50mm 1.2 and 24-70 lenses.</p>
-
-
- 	</div>
-    <!-- .entry-content -->
-    
-  </article>
-  <!-- end article -->
-  
-  <!-- begin article -->
-  <article class="post hentry format-audio">
-  	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">Nights Like Bonita</a></h2>
-    </header>
-    <!-- .entry-header -->
-    
-    <div class="entry-content">
-      <div class='audio-wrapper'>
-      	<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F29449040&amp;auto_play=false&amp;show_artwork=true&amp;color=666666"></iframe>
-      </div>
-      <p><strong>Icona Pop</strong> is a duo all the way from Stockholm, Sweden. Caroline Hjelt and Aino Jawo deliver pop music that seems second nature to most Scandinavians.</p>
-<p>Upon first hearing <strong>Manners</strong> you get it all – clapped beats, fizzy electronics, cute female vocals and a Sesame Street chorus. It’s verses are like the narration of a teenager’s diary, before the youthful confidence comes storming in, &#8220;take a second look and you’ll see, there is no one like me&#8221;. It’s a punchy pop song that has a wonderful blend of obvious hooks, big choruses and a chart-ready appeal, yet it’s still drenched in buckets of ice cool undertones.</p>
-      
-
- 	</div>
-    <!-- .entry-content -->
-    
-  </article>
-  <!-- end article -->
-  
-  
-  <!-- begin article -->
-  <article class="post hentry format-image">
-  	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">Travelling Day In and Day Out</a></h2>
-    </header>
-    <!-- .entry-header -->
-    
-    <div class="entry-content">
-      <div class="full-size">
-      	<a href="post.html"><img src="style/images/art/post2.jpg" alt="" /></a>
-      </div>
-      <p>He must have tried it a hundred times, shut his eyes so that he wouldn&#8217;t have to look at the floundering legs, and only stopped when he began to feel a mild, dull pain there that he had never felt before.</p>
-<p>&#8220;Oh, God&#8221;, he thought, &#8220;what a strenuous career it is that I&#8217;ve chosen! Travelling day in and day out.</p>
-
- 	</div>
-    <!-- .entry-content -->
-    
-  </article>
-  <!-- end article -->
-  
-  
-  <!-- begin article -->
-  <article class="post hentry format-link">
-  	<header class="entry-header">
-		<h2 class="entry-title">
-			<a href="http://elemisfreebies.com" title="Go to The Italic Mountains" rel="bookmark" target="_blank">
-      				The Italic Mountains<span class="arrow">&rarr;</span>
-      		</a>
-		</h2>
-    </header>
-    <!-- .entry-header -->
-    
-    <div class="entry-content">
-      <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.</p>
-                 
- 	</div>
-    <!-- .entry-content -->
-    
-  </article>
-  <!-- end article -->
-  
-  <!-- begin article -->
-  <article class="post hentry format-image">
-  	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">Thousands of Bad Commas</a></h2>
-    </header>
-    <!-- .entry-header -->
-    
-    <div class="entry-content">
-      <div class="normal-size"><a href="post.html">
-  <img src="style/images/art/post3.jpg" alt="" />  </a></div>
-      <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-      
- 	</div>
-    <!-- .entry-content -->
-    
-  </article>
-  <!-- end article -->
-  
-  <!-- begin article -->
-  <article class="post hentry format-chat">
-  	<header class="entry-header">
-		<h2 class="entry-title"><a href="post.html">Two Best Friends </a></h2>
-    </header>
-    <!-- .entry-header -->
-    
-    <div class="entry-content">
-      <ul>
-<li><strong>Barney:</strong> Stop pining over Marshall and Lily! Have some self respect. Now put this fiver in your mouth so that stripper with the lazy eye can vacuum it up with&#8230;</li>
-<li><strong>Ted:</strong> Barney! I&#8217;m allowed to miss them alright? They&#8217;re my two best friends.</li>
-<li><strong>Barney:</strong> I&#8217;m your two best friends!</li>
-</ul>
-      
- 	</div>
-    <!-- .entry-content -->
-    
-  </article>
-  <!-- end article -->
   
   
   		<nav id="nav-fixed">
@@ -313,7 +342,7 @@ Certain information, such as the details of major character deaths and the signi
 	<div class="clear"></div> 
 	
     <!-- Begin Page-navi -->
-    <ul class="page-navi">
+    <ul class="page-navi" style="padding:15px">
     	<li><a href="prototyping.html">Back</a></li>
     	<li><a href="conclusion.html">Next</a></li>
     </ul>
